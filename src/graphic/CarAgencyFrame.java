@@ -25,7 +25,6 @@ public class CarAgencyFrame extends JFrame {
     public static void main(String[] args) {
         ImageIcon logo = new ImageIcon("logo.png");
         CarAgencyFrame carAgencyFrame = CarAgencyFrame.getInstance();
-        System.out.println("hello");
         carAgencyFrame.setVisible(true);
         carAgencyFrame.setIconImage(logo.getImage());
 
